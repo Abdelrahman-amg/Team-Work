@@ -1,0 +1,261 @@
+.navbar-brand img
+{
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+.nav-link:hover
+{
+    color: grey;
+}
+nav .container a
+{
+    color: white;
+}
+nav .icons
+{
+   list-style: none;
+   transform: translateY(10%);
+   color: white;
+}
+/*=======================================================================*/
+header 
+{
+    background-image: url("../images/bg-image-28.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+header .dark-layer
+{
+    opacity: 0.6;
+}
+header .dark-layer .container p
+{
+    max-width: 500px;
+}
+header button
+{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+header .colored
+{
+    background-color: #00c3da;
+    border-color:#00c3da;
+    transition-property:scale;
+    transition-duration: 1s;
+}
+header .colored:hover
+{
+    transform: scale(105%);
+}
+header .uncolored
+{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    transition-property: color background-color;
+    transition-duration: 1s;
+}
+header .uncolored:hover
+{
+    background-color: white;
+    color: black;
+}
+/*=========================================================================================================*/
+.about .container p
+{
+    color: black;
+}
+.about .container .max-width
+{
+    max-width: 500px;
+}
+.about .container .max-width span
+{
+    color:#00c3da ;
+}
+.about .container button
+{
+   color: black;
+   background-color: white;
+   border-color: #f1f1f1;
+   transition-property: color background-color border-color;
+   transition-duration: 1s;
+}
+.about .container button:hover
+{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+/*===============================================================================================*/
+section .container .bg-letter
+{
+    opacity: .3;
+}
+section .container .words
+{
+    transform: translateY(20%);
+}
+section .hovered-div .hovered 
+{
+    top: 10%;
+    opacity: 0;
+    transition-property: opacity background-color;
+   transition-duration: 0.3s;
+}
+section .hovered-div:hover .hovered 
+{
+    top: 0%;
+    opacity: 0.8;
+    background-color: #00c3da;
+}
+section .hovered-div .hovered .information 
+{
+    bottom: 0%;
+    left: 5%;
+}
+/*=============================================================================================*/
+ .services
+{
+    background-color:#787878;
+}
+.services .container .row .col-6 .max-w
+{
+  max-width: 500px;
+}
+/*==============================================================================================*/
+.pricing .container .row .col-lg-3 .package
+{
+    background-color:white;
+}
+.pricing .container .row .col-lg-3 .package .container .number
+{
+   transform: translateY(-30%);
+}
+.pricing .container .row .col-lg-3 .package .container .number::after
+{
+    content: "";
+    position: absolute;
+    background-color:#f1f1f1;
+    width: 90%;
+    height: 2px;
+    bottom: 0%;
+    left: 5%;
+}
+.pricing .container .row .col-lg-3 .package .container button
+{
+    background-color: #00c3da;
+    color: white;
+    border-color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property:background-color transform;
+    transition-duration: 0.5s;
+}
+.pricing .container .row .col-lg-3 .package .container button:hover
+{
+    transform: scale(102%);
+    background-color: #00cfff;
+}
+.pricing .container .row .col-lg-3 .package3
+{
+    background-color:white;
+    transform:scale(105%);
+}
+.pricing .container .row .col-lg-3 .package3 .container .number3
+{
+   transform: translateY(-30%);
+   color: #00c3da;
+}
+.pricing .container .row .col-lg-3 .package3 .container .number3::after
+{
+    content: "";
+    position: absolute;
+    background-color:#f1f1f1;
+    width: 90%;
+    height: 2px;
+    bottom: 0%;
+    left: 5%;
+}
+.pricing .container .row .col-lg-3 .package3 .container button
+{
+    background-color: #00c3da;
+    color: white;
+    border-color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property:background-color transform;
+    transition-duration: 0.5s;
+}
+.pricing .container .row .col-lg-3 .package3 .container button:hover
+{
+    transform: scale(102%);
+    background-color: #00cfff;
+}
+.pricing .container .row .col-lg-3 .package3 .container .best-value
+{
+    background-color: #00c3da;
+    right: 5%;
+    width:30%;
+}
+/*===================================================================================*/
+.works .carousel .carousel-inner .carousel-item .max-w
+{
+    max-width: 500px;
+}
+.works .carousel .carousel-inner .carousel-item
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.works  img
+{
+   width: 80px;
+   height: 80px;
+   transform: translateY(-30%);
+}
+.works .carousel .carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+    background-color: #00c3da;
+}
+/*==================================================================================*/
+.contact .container-fluid .row .col-lg-6 .container .new
+{
+    bottom: 25%;
+    left: 10%;
+}
+.contact .container-fluid .row .col-lg-6 .info .name 
+{
+    color: white;
+}
+.contact .container-fluid .row .col-lg-6 .info button
+{
+    background-color: #00c3da;
+    color: white;
+    border-color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property:background-color transform;
+    transition-duration: 0.5s;
+}
+.contact .container-fluid .row .col-lg-6 .info button:hover
+{
+    transform: scale(102%);
+    background-color: #00cfff;
+}
